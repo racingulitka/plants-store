@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+.header{
+	background: #f00;
+	border:1px solid #000;
+	width:100%;
+	display:flex;
+}
+
+.header img{
+	align-self: flex-start;
+	aspect-ratio: 1/1;
+	width:100px;
+
+}
+
+.Name{
+	width:300px;
+}
+
+ul{
+	display:flex;
+}
+
+li{list-style: none;}

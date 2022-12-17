@@ -1,0 +1,8 @@
+.App{
+  background: #0f0;
+  width:1200px;
+  display:flex;
+  flex-flow:column wrap;
+  margin:0 auto;
+  
+}
