@@ -1,8 +1,8 @@
-import "./Header.css";
+import styles from "./Header.module.css";
 
 let Header = () => {
 	return(
-		<header className="header">
+		<header className={styles.header}>
 			<img src="https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png"/>
 			<div className="Name">Plants Store</div>
 			<ul>

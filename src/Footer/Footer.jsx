@@ -1,4 +1,4 @@
-import "./Footer.css";
+import styles from"./Footer.modules.css";
 
 let Footer = () =>{
 	return(

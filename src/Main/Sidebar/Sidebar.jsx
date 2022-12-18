@@ -1,8 +1,8 @@
-import "./Sidebar.css";
+import styles from"./Sidebar.module.css";
 
 let Sidebar = () =>{
 	return(
-		<sidebar className="Sidebar"></sidebar>
+		<sidebar className={styles.Sidebar}></sidebar>
 		)
 }
 export default Sidebar;

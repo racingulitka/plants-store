@@ -1,8 +1,8 @@
-import "./Slider.css"
+import styles from "./Slider.module.css"
 
 let Slider = () =>{
 	return(
-		<div className="slider"></div>
+		<div className={styles.slider}></div>
 		)
 }
 
